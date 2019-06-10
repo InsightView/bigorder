@@ -1,0 +1,17 @@
+{
+  "name": "create-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongodb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mongoose": "^5.5.14"
+  },
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3"
+  }
+}
