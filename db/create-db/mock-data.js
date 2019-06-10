@@ -6,7 +6,7 @@ let Random = Mock.Random;
 exports.getUser = function () {
     let user = {
         id: Random.guid(),
-        name: Random.name(3, 6),
+        name: Random.name(2, 3),
         pass: Random.word(18),
         email: Random.email(),
         isDelete: Random.boolean(),
@@ -23,3 +23,4 @@ exports.getUser = function () {
     return user;
 }
 
+// console.log(getUser());
